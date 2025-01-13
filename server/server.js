@@ -46,7 +46,7 @@ async function fetchLocalWeatherData(district) {
             let record = curr_weather.rainfall.data[index];
             if (record.place === district) {
                 rainfall = record;
-                break; // Exit loop once the required place is found
+                break; 
             }
         }
 
@@ -57,7 +57,7 @@ async function fetchLocalWeatherData(district) {
             let record = curr_weather.temperature.data[index];
             if (record.place === district) {
                 temperature = record;
-                break; // Exit loop once the required place is found
+                break;
             }
         }
     } catch (error) {

@@ -1,0 +1,3 @@
+To run this application, consisting of two components: "app" and "server"
+1. Run server in split terminal: "node server/server"
+2. Run app: "cd app" then "npx react-native run-android"
